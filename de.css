@@ -1,0 +1,14 @@
+.barscroll {
+    width: 400px;
+    height: 210px;
+    border: 2px dotted black;
+    overflow-y: scroll;
+}
+
+.barscroll::-webkit-scrollbar {
+    display: none;
+}
+
+.barscroll {
+    -ms-overflow-style: none;
+}
